@@ -1,9 +1,17 @@
 #include "math.hpp"
 
-int add(const int& x, const int& y) {
+double add(const double& x, const double& y) {
   return x + y;
 }
 
-int sub(const int& x, const int& y) {
+double subtract(const double& x, const double& y) {
   return x - y;
+}
+
+double multiply(const double& x, const double& y) {
+  return x * y;
+}
+
+double divide(const double& x, const double& y) {
+  return x / y;
 }

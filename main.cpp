@@ -12,7 +12,9 @@ int main() {
   std::cout << "a = " << a << " | b = " << b << '\n' << std::endl;
 
   std::cout << "a + b = " << add(a, b) << std::endl;
-  std::cout << "a - b = " << sub(a, b) << std::endl;
+  std::cout << "a - b = " << subtract(a, b) << std::endl;
+  std::cout << "a * b = " << multiply(a, b) << std::endl;
+  std::cout << "a / b = " << divide(a, b) << std::endl;
 
   return 0;
 }

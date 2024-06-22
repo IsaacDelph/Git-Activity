@@ -1,7 +1,9 @@
 #ifndef MATH_HPP
 #define MATH_HPP
 
-int add(const int&, const int&);
-int sub(const int&, const int&);
+double add(const double&, const double&);
+double subtract(const double&, const double&);
+double multiply(const double&, const double&);
+double divide(const double&, const double&);
 
 #endif
